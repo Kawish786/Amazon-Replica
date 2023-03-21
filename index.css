@@ -1,0 +1,79 @@
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    background-color: #212529;
+    
+    
+    
+}
+.img{
+    width: 80%;
+    aspect-ratio: 10/2;
+    object-fit: contain;  
+    mix-blend-mode:color-burn; 
+}
+#button-addon2{
+    background-color: #ff9900 ;
+}
+#span{
+    color: white;
+    cursor: pointer;
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    background-color: #232f3e;
+   
+    
+
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.body{
+    display: flex;
+    width:100%;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    float: left;
+    border-right: 1px solid #232f3e;
+    
+    
+}
+.h6{
+    margin-left: 10px;
+}
+.options{
+    margin-left: 20px;
+}
+.options:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.product{
+    display: flex;
+    width: 80%;
+    float: right;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fa-star{
+    color: #ff9900;
+}
+.card-title{
+    color: #B12704!important;
+    cursor: pointer;
+}
